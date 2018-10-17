@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-require('../')()
+import * as start from '../'
+start()
