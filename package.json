@@ -1,6 +1,6 @@
 {
   "name": "make-vr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generator for aframe-typescript-toolkit",
   "main": "index.js",
   "scripts": {
