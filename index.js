@@ -1,7 +1,7 @@
 var yeoman = require('yeoman-environment');
 var env = yeoman.createEnv();
 
-export default start = () => {
+module.exports = () =>  {
     env.lookup( 
         () =>   {
             console.log('Welcome to make vr!')
