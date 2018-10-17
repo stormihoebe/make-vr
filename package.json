@@ -1,0 +1,29 @@
+{
+  "name": "make-vr",
+  "version": "1.0.0",
+  "description": "generator for aframe-typescript-toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make-vr": "node index.js"
+  },
+  "bin": {
+    "makeVr": "bin/makeVr"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
+  "author": "Stormi Hoebelheinrich",
+  "license": "ISC",
+  "keywords": [
+    "vr",
+    "WebVR",
+    "a-frame", 
+    "typescript"
+  ],
+  "dependencies": {
+    "generator-make-ts-vr": "^0.0.4",
+    "yeoman-environment": "^2.3.3"
+  }
+}
